@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+
+header{
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.container{
+    display: flex;
+    gap: 50px;
+}
+.board{
+    display: flex;
+    flex-flow: row wrap;
+    width:  400px;
+    height: 400px;
+}
+.cell{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+.hit{
+    background-color: black;
+}
+.nohit{
+    background-color: blueviolet;
+}
